@@ -1,0 +1,10 @@
+[project]
+name = "git-digest"
+version = "0.1.0"
+description = "Markdown standup digests from git history"
+requires-python = ">=3.9"
+[project.scripts]
+git-digest = "gitdigest:main"
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
